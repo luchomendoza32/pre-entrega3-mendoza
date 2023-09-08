@@ -54,7 +54,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   border: solid white;
@@ -62,11 +62,23 @@ main {
 }
 main div {
   border: solid white;
-  margin: 5rem;
+  margin: 2rem;
 }
 main section {
   margin: 5rem;
   border: solid white;
+}
+
+.div-iconos {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.div-iconos img {
+  width: 50px;
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
