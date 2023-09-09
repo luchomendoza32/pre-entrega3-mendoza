@@ -10,10 +10,9 @@ html {
 }
 
 body {
-  background-image: url(../multimedia/fondo1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: whitesmoke;
   height: 100vh;
+  border-radius: 1rem;
 }
 
 .header {
@@ -22,10 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: solid rgb(228, 74, 74);
+  border: solid rgb(0, 0, 0);
+  background-color: grey;
 }
 .header h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 80px;
   margin: 2rem;
   font-weight: bold;
@@ -35,7 +35,6 @@ body {
   justify-content: left;
   height: 95%;
   margin: 1rem;
-  border: solid white;
 }
 .header .icono img {
   height: 100%;
@@ -46,7 +45,7 @@ body {
 .header .header-nav .nav a {
   margin: 1rem;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: bold;
 }
@@ -67,6 +66,20 @@ main div {
 main section {
   margin: 5rem;
   border: solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section h2 {
+  font-size: 8rem;
+  color: rgb(0, 0, 0);
+  width: 200rem;
+  padding: 2rem;
+}
+main section p {
+  font-size: 5rem;
+  width: 200rem;
+  padding: 2rem;
 }
 
 .div-iconos {
