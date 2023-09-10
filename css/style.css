@@ -129,6 +129,8 @@ main .section-1 ul li, main .section-2 ul li {
 }
 .carousel div div img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .formulario-reparacion {
@@ -156,6 +158,24 @@ main .section-1 ul li, main .section-2 ul li {
 .formulario-reparacion .formulario .grupo-form input {
   padding: 3px;
   width: 20rem;
+}
+
+.nav-burger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+    color: white;
+    background-color: #323031;
+  }
+  .nav-burger div .nab-bg {
+    background-color: #323031;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
