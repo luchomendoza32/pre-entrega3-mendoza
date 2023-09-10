@@ -12,32 +12,32 @@ html {
 body {
   background-color: whitesmoke;
   height: 100vh;
-  border-radius: 1rem;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  height: 200px;
-  border: solid rgb(0, 0, 0);
-  background-color: grey;
+  height: 80px;
+  background-color: rgb(70, 66, 66);
 }
 .header h1 {
   color: rgb(255, 255, 255);
-  font-size: 80px;
-  margin: 2rem;
+  font-size: 4rem;
+  margin: 1rem;
   font-weight: bold;
 }
 .header .icono {
-  display: flex;
-  justify-content: left;
+  justify-self: start;
   height: 95%;
   margin: 1rem;
 }
 .header .icono img {
   height: 100%;
+}
+.header .header-nav {
+  margin-left: auto;
 }
 .header .header-nav .nav {
   display: inline-block;
@@ -46,7 +46,7 @@ body {
   margin: 1rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -57,29 +57,27 @@ main {
   align-items: center;
   justify-content: center;
   border: solid white;
-  height: 60vh;
 }
 main div {
   border: solid white;
   margin: 2rem;
 }
 main section {
-  margin: 5rem;
+  margin: 2rem;
   border: solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5rem;
 }
 main section h2 {
-  font-size: 8rem;
-  color: rgb(0, 0, 0);
-  width: 200rem;
-  padding: 2rem;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 main section p {
-  font-size: 5rem;
-  width: 200rem;
-  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  width: 100rem;
 }
 
 .div-iconos {
