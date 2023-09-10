@@ -11,7 +11,7 @@
   }
 
 body {
-    background-color: whitesmoke;
+    background-color: #c1bdb3;
     height: 100vh;
     
 }
@@ -23,7 +23,7 @@ body {
     align-items: center;
     height: 80px;
 
-    background-color: rgb(70, 66, 66);
+    background-color: #323031;
         h1 {
         color: rgb(255, 255, 255);
         font-size: 4rem;
@@ -66,32 +66,45 @@ main {
     align-items: center ;
     justify-content: center;
     
-    border: solid white;
     
-        div {
-            border: solid white;
-            margin: 2rem;
-
+        
+        .linea-divisora{
+            border-bottom: solid black 1px;
+            width: 70%;
+            margin: 1rem 0rem;
         }
-        section {
+
+        .section-1, .section-2 {
             margin: 2rem;
-            border: solid white;
+            
             display: flex;
             flex-direction: column;
             align-items: center; 
-            margin-top: 5rem;          
+            margin-top: 5rem;  
+                    
                 h2 {
                     font-size: 3.5rem;
-                    font-weight: bold;                                                           
+                    font-weight: bold;  
+                    padding: 1rem;                                                         
                 }
                 p {
                     font-size: 2rem;
                     margin-top: 2rem;
-                    width: 100rem;                                       
+                    width: 100rem; 
+                    padding: 1rem; 
+                                                         
                 }
-
+                ul{
+                    list-style-type: none;
+                    li {
+                        font-size: 2rem;
+                        padding: 0.5rem;
+                        margin: 1px;
+                    }
+                }
+        
         }
-}
+    }
 
 .div-iconos {
     display: flex;
@@ -104,5 +117,20 @@ main {
         width: 50px;
         margin: 0.5rem;
 
+    }
+    }
+
+.footer {
+    margin: auto;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        
+        li{
+            margin: 1rem 5rem;
+            font-weight: bold;
+            font-size: 1rem;
+        }
     }
 }
