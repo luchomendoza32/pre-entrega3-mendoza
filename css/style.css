@@ -118,13 +118,17 @@ main .section-1 ul li, main .section-2 ul li {
 }
 
 .carousel {
-  width: 80%;
-  height: 80vh;
+  width: 50%;
+  height: 50vh;
   display: flex;
   justify-self: center;
   margin: auto;
   margin-top: 5rem;
   border: black solid 1px;
+  border-radius: 5px;
+}
+.carousel div div img {
+  width: 100%;
 }
 
 .formulario-reparacion {
