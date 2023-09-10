@@ -11,6 +11,7 @@ html {
 
 body {
   background-color: #c1bdb3;
+  min-height: 100vh;
 }
 
 .header {
@@ -112,7 +113,7 @@ main .section-1 ul li, main .section-2 ul li {
 .footer ul li {
   margin: 1rem 5rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .carousel {

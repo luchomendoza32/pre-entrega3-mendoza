@@ -12,7 +12,7 @@
 
 body {
     background-color: #c1bdb3;
-        
+    min-height: 100vh;
 }
 
 .header {
@@ -124,6 +124,7 @@ main {
 
 .footer {
     margin: auto;
+    
     ul{
         list-style-type: none;
         display: flex;
@@ -132,7 +133,7 @@ main {
         li{
             margin: 1rem 5rem;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 2rem;
         }
     }
 }
