@@ -7,13 +7,12 @@
   
   html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
 body {
     background-color: #c1bdb3;
-    height: 100vh;
-    
+        
 }
 
 .header {
@@ -68,11 +67,7 @@ main {
     
     
         
-        .linea-divisora{
-            border-bottom: solid black 1px;
-            width: 70%;
-            margin: 1rem 0rem;
-        }
+        
 
         .section-1, .section-2 {
             margin: 2rem;
@@ -106,6 +101,13 @@ main {
         }
     }
 
+    .linea-divisora{
+        border-bottom: solid black 1px;
+        width: 70%;
+        margin: 1rem 0rem;   
+                     
+    }
+
 .div-iconos {
     display: flex;
     flex-direction: column;
@@ -133,4 +135,50 @@ main {
             font-size: 1rem;
         }
     }
+}
+
+
+.carousel {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    margin-top: 5rem;
+    border: black solid 1px;
+
+}
+
+.formulario-reparacion {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 
+    ;
+    
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: black solid 1px;
+            
+            margin: auto;
+            .grupo-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                label {
+                    padding: 5px;
+                    font-size: 3rem;
+                    
+                }
+                input {
+                    padding: 3px;
+                    width: 20rem;
+                    
+                }
+            
+            }
+        }
 }

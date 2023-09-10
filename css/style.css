@@ -6,12 +6,11 @@
 
 html {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #c1bdb3;
-  height: 100vh;
 }
 
 .header {
@@ -57,11 +56,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-main .linea-divisora {
-  border-bottom: solid black 1px;
-  width: 70%;
-  margin: 1rem 0rem;
-}
 main .section-1, main .section-2 {
   margin: 2rem;
   display: flex;
@@ -89,6 +83,12 @@ main .section-1 ul li, main .section-2 ul li {
   margin: 1px;
 }
 
+.linea-divisora {
+  border-bottom: solid black 1px;
+  width: 70%;
+  margin: 1rem 0rem;
+}
+
 .div-iconos {
   display: flex;
   flex-direction: column;
@@ -113,6 +113,43 @@ main .section-1 ul li, main .section-2 ul li {
   margin: 1rem 5rem;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.carousel {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-self: center;
+  margin: auto;
+  margin-top: 5rem;
+  border: black solid 1px;
+}
+
+.formulario-reparacion {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.formulario-reparacion .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: black solid 1px;
+  margin: auto;
+}
+.formulario-reparacion .formulario .grupo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formulario-reparacion .formulario .grupo-form label {
+  padding: 5px;
+  font-size: 3rem;
+}
+.formulario-reparacion .formulario .grupo-form input {
+  padding: 3px;
+  width: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */
