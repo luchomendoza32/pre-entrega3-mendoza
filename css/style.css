@@ -105,9 +105,13 @@ main .video {
   bottom: 1rem;
   right: 1rem;
 }
+.div-iconos :hover {
+  box-shadow: 1px 1px 10px;
+}
 .div-iconos img {
   width: 50px;
   margin: 0.5rem;
+  border-radius: 20px;
 }
 
 .footer {

@@ -29,11 +29,9 @@ body {
         font-size: 4rem;
         margin: 1rem;
         font-weight: bold;
-        
-               
+                       
         }
-        .icono {
-            
+        .icono {            
             justify-self: start;
             height: 95%;
             margin: 1rem;
@@ -54,6 +52,7 @@ body {
                     color: rgb(255, 255, 255);
                     font-size: 3rem;
                     font-weight: bold;
+                    
                 }
             }
         }
@@ -66,11 +65,7 @@ main {
     align-items: center ;
     justify-content: center;
     width: 100%;
-    
-    
-        
-        
-
+                       
         .section-1, .section-2 {
             margin: 2rem;            
             display: flex;
@@ -123,13 +118,18 @@ main {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
+    :hover {            
+        box-shadow: 1px 1px 10px;       
+   }       
     
     img {
         width: 50px;
         margin: 0.5rem;
+        border-radius: 20px;               
+    }
+    }
 
-    }
-    }
+    
 
 .footer {
     margin: auto;
@@ -285,5 +285,7 @@ main {
     }
 
     }
+
+
    
 
