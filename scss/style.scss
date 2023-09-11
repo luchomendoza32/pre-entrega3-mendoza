@@ -65,14 +65,14 @@ main {
     gap: 1rem;
     align-items: center ;
     justify-content: center;
+    width: 100%;
     
     
         
         
 
         .section-1, .section-2 {
-            margin: 2rem;
-            
+            margin: 2rem;            
             display: flex;
             flex-direction: column;
             align-items: center; 
@@ -99,6 +99,14 @@ main {
                     }
                 }
         
+        }
+
+        .video {
+            border: 2px solid white;
+            border-radius: 25px;
+            width: 500px;
+            height: 300px;
+            
         }
     }
 
@@ -210,12 +218,72 @@ main {
         display: flex;
         color: white;
         background-color: #323031;
+        height: 5rem;
+        a {
+            font-size: 2rem;
+        }
         div {
-            .nab-bg {
+            div {
+                font-size: 1.5rem;
+                h5{
+                    font-size: 2rem;
+                }
+            }
+            .nav-bg {
                 background-color: #323031;
+                color: white;
+                font-size: 1.5rem;
             }
         }
     
     }
     
 }
+
+@media screen and (max-width: 1024px){
+    
+    .section-1 {
+        h2 {
+            font-size: 25px !important;
+            text-decoration: underline;
+            max-width: 100vw !important;
+            padding: 2.5rem !important;
+                                 
+        }
+        p {
+            
+            max-width: 85vw !important;
+            padding: 2.5rem;
+        }
+    }
+
+    .section-2 {
+        h2 {
+            font-size: 25px !important;
+            text-decoration: underline;
+            max-width: 100vw !important;
+            padding: 2.5rem !important;
+        }
+        ul {
+            li {
+                max-width: 85vw !important;
+                padding: 2.5rem;
+            }
+        }
+        }
+    .video {
+        max-width: 70vw !important;
+        max-height: 200px !important;
+    }
+    .footer {
+        max-width: 80vw !important;
+        .footer-list {
+            li {
+                margin: 1rem !important;
+            }
+        }
+    }
+
+    }
+   
+
