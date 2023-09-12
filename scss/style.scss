@@ -295,7 +295,16 @@ main {
         }
     }
 
-    
+    .formulario {
+        height: 65vh !important;
+        width: 85vw !important;
+    }
+
+    .cards {        
+        grid-template-columns: 1fr !important;
+        
+    }
+
     
 }
 
@@ -305,21 +314,18 @@ main {
     justify-content: center  !important;
     align-items: center !important;
     max-height: 100vh;
-    max-width: 100vw;       
-    
+    max-width: 100vw;          
 
         .formulario {
-            display: flex !important;               
-            background-color: #817e76;
-            backdrop-filter: blur(10px) !important; 
+            display: flex ;               
+            background-color: #817e76;             
             min-height: 100%;
             max-width: 100%;
             border-radius: 10px;
             border: solid white 2px;
-            height: 65vh;
-            width: 85vw;
-            margin-top: 10%;
-            
+            height: 500px;
+            width: 800px;
+            margin-top: 5%;            
                 
                 .grupo-form {
                     max-width: 80%;
@@ -331,9 +337,7 @@ main {
                         align-self: start ;
                         font-size: 3rem;
                         font-weight: 400;                                                       
-                        margin-left: 10%;
-                        
-                        
+                        margin-left: 10%;                                                
                     }
                     input {
                         align-self: start;
@@ -342,8 +346,7 @@ main {
                         border: none;                           
                         width: 100%;
                         margin-left: 10%;
-                        font-size: 2.5rem;
-                        
+                        font-size: 2.5rem;                                               
                     }
                     
                 }
@@ -352,18 +355,102 @@ main {
                 height: 50px;
                 font-size: 30px;
                 width: 50%;
-                align-self: center !important;
+                align-self: center;
                 margin-top: 20px;
                 font-weight: 600;
-                
-            }
-                
-
-            
-                
+                border-radius: 10px;               
+            }                                           
         }
 
 
+}
+
+.blog {
+    width: 100%;
+    .titulo {
+        width: 60%;
+        text-align: center;
+        margin: auto;
+            h2 {
+                font-size: 40px;
+                color: #39423c;
+                margin-top: 20px;
+            }
+            p{
+                font-size: 20px;
+            }
+    }
+        .blog-contenido {
+            width: 85%;
+            margin: 20px auto;
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 50px;
+                margin: 25px auto;
+                .card {
+                    width: 100%;
+                    background-color: rgb(255, 255, 255);
+                    position: relative;
+                    border-radius: 20px;                   
+
+                        .noticia{
+                            padding: 15px 20px;
+                                h3 {
+                                    font-size: 24px;
+                                    color: #4a4a4a;
+                                }
+                                p {
+                                    font-size: 16px;
+                                    margin: 10px 0px;
+                                    color: #6a6a6a ;
+                                }                           
+                        }
+
+                        .imagen {
+                        
+                            img {
+                            width: 100%;
+                            height: auto;
+                            border-top-right-radius: 20px;
+                            border-top-left-radius: 20px; 
+                            }
+                        }
+                        .blog-vista {
+                                    
+                            a{
+                                text-decoration: none;
+                                color: #323031;
+                                display: inline-block;
+                                background-color: #25c5c5;
+                                padding: 8px 10px;
+                                margin-left: 20px;
+                                color: #fff;
+                                margin-bottom: 20px;
+                                font-size: 15px;
+                            }                           
+                        }
+
+                        .fecha {
+                            p {
+                                font-weight: 600;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: inline-block;
+                                background-color: #25c5c5;
+                                padding: 8px;
+                                border-top-left-radius: 20px;
+                            }
+                        }
+                }
+            }
+
+                
+        }
+        
+        
 }
 
 

@@ -243,6 +243,13 @@ main .video {
   .footer .footer-list li {
     margin: 1rem !important;
   }
+  .formulario {
+    height: 65vh !important;
+    width: 85vw !important;
+  }
+  .cards {
+    grid-template-columns: 1fr !important;
+  }
 }
 .formulario-reparacion {
   display: flex !important;
@@ -253,16 +260,15 @@ main .video {
   max-width: 100vw;
 }
 .formulario-reparacion .formulario {
-  display: flex !important;
+  display: flex;
   background-color: #817e76;
-  backdrop-filter: blur(10px) !important;
   min-height: 100%;
   max-width: 100%;
   border-radius: 10px;
   border: solid white 2px;
-  height: 65vh;
-  width: 85vw;
-  margin-top: 10%;
+  height: 500px;
+  width: 800px;
+  margin-top: 5%;
 }
 .formulario-reparacion .formulario .grupo-form {
   max-width: 80%;
@@ -288,9 +294,82 @@ main .video {
   height: 50px;
   font-size: 30px;
   width: 50%;
-  align-self: center !important;
+  align-self: center;
   margin-top: 20px;
   font-weight: 600;
+  border-radius: 10px;
+}
+
+.blog {
+  width: 100%;
+}
+.blog .titulo {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.blog .titulo h2 {
+  font-size: 40px;
+  color: #39423c;
+  margin-top: 20px;
+}
+.blog .titulo p {
+  font-size: 20px;
+}
+.blog .blog-contenido {
+  width: 85%;
+  margin: 20px auto;
+}
+.blog .blog-contenido .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin: 25px auto;
+}
+.blog .blog-contenido .cards .card {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 20px;
+}
+.blog .blog-contenido .cards .card .noticia {
+  padding: 15px 20px;
+}
+.blog .blog-contenido .cards .card .noticia h3 {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog .blog-contenido .cards .card .noticia p {
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #6a6a6a;
+}
+.blog .blog-contenido .cards .card .imagen img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.blog .blog-contenido .cards .card .blog-vista a {
+  text-decoration: none;
+  color: #323031;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 8px 10px;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.blog .blog-contenido .cards .card .fecha p {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 8px;
+  border-top-left-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
