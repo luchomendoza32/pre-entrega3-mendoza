@@ -136,6 +136,7 @@ body {
         .imagen-banner {
             display: flex;
             width: 40%;
+            margin: 1.5rem 0px;
                 img {
                     width: 100%;
                     border-radius: 20px;
@@ -149,7 +150,7 @@ body {
     .linea-divisora{
         border-bottom: solid black 1px;
         width: 70%;
-        margin: 1rem 0rem;   
+        margin: 2rem 0rem;   
                      
     }
 
@@ -324,6 +325,9 @@ body {
         
     }
 
+    .imagen-banner {
+        width: 80% !important;
+    }
     
 }
 
