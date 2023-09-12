@@ -331,6 +331,7 @@ main .video {
   background-color: rgb(255, 255, 255);
   position: relative;
   border-radius: 20px;
+  border: solid rgb(0, 0, 0) 1px;
 }
 .blog .blog-contenido .cards .card .noticia {
   padding: 15px 20px;
