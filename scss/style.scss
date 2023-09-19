@@ -3,7 +3,8 @@
 @import "layout/header";
 @import "layout/main";
 @import "views/mediaqueries";
-
+@import "layout/redes";
+@import "utilidades/globals";
 
 * {
     margin: 0;
@@ -160,6 +161,20 @@ body {
 }
 
 
+.main-empresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .h1{
+        
+    }
+}
    
 

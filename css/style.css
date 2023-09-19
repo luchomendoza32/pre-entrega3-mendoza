@@ -124,23 +124,6 @@
   margin: 2rem 0rem;
 }
 
-.div-iconos {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-}
-.div-iconos img {
-  width: 50px;
-  margin: 0.5rem;
-  border-radius: 20px;
-  border: 1px solid #25c5c5;
-}
-.div-iconos img:hover {
-  box-shadow: 1px 1px 10px;
-}
-
 @media screen and (max-width: 1024px) {
   .header {
     display: none;
@@ -284,6 +267,28 @@
   border-radius: 10px;
 }
 
+.div-iconos {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.div-iconos img {
+  width: 50px;
+  margin: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #25c5c5;
+}
+.div-iconos img:hover {
+  box-shadow: 1px 1px 10px;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -408,6 +413,17 @@ body {
 }
 .shop .cards-shop .shop-card div img {
   width: 100%;
+}
+
+.main-empresa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.main-empresa img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
