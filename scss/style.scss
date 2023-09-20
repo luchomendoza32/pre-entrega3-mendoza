@@ -27,100 +27,7 @@ body {
     min-height: 100vh;
 }
 
-.blog {
-    width: 100%;
-    
-        .blog-contenido {
-            width: 85%;
-            margin: 20px auto;
-            
-            .titulo {
-                width: 60%;
-                text-align: center;
-                margin: auto;
-                    h1 {
-                        font-size: 3.5rem;
-                        color: #000000;
-                        margin-top: 20px;
-                    }
-                    p{
-                        font-size: 20px;
-                        padding: 1rem;
-                    }
-                }
 
-            
-            
-            .cards {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 50px;
-                margin: 25px auto;
-                
-                
-                .card {
-                    width: 100%;
-                    background-color: rgb(255, 255, 255);
-                    position: relative;
-                    border-radius: 20px; 
-                    border: solid rgb(0, 0, 0) 1px; 
-                    box-shadow: 0px 1px 20px;
-                                                                               
-                        .noticia{
-                            padding: 15px 20px;
-                                h3 {
-                                    font-size: 24px;
-                                    color: #4a4a4a;
-                                }
-                                p {
-                                    font-size: 16px;
-                                    margin: 10px 0px;
-                                    color: #6a6a6a ;
-                                }                           
-                        }
-
-                        .imagen {
-                        
-                            img {
-                            width: 100%;
-                            height: auto;
-                            border-top-right-radius: 20px;
-                            border-top-left-radius: 20px; 
-                            overflow: hidden;
-                            }
-                        }
-                        .blog-vista {
-                                                            
-                            a{
-                                text-decoration: none;
-                                color: #323031;
-                                display: inline-block;
-                                background-color: #25c5c5;
-                                padding: 8px 10px;
-                                margin-left: 20px;
-                                color: #fff;
-                                margin-bottom: 20px;
-                                font-size: 15px;
-                                
-                            }                           
-                        }
-
-                        .fecha {
-                            p {
-                                font-weight: 600;
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                display: inline-block;
-                                background-color: #25c5c5;
-                                padding: 8px;
-                                border-top-left-radius: 20px;
-                            }
-                        }
-                }
-            }       
-        }               
-}
 
 .carousel {
     display: none ;
@@ -161,20 +68,6 @@ body {
 }
 
 
-.main-empresa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .h1{
-        
-    }
-}
    
 
