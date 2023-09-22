@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 1024px){
 
     .header {
@@ -135,5 +137,85 @@
 
     }
     }
+
+
+    .main-tienda {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100vw !important;
+            h1, h2 {
+                text-align: center;
+            }
+
+            .shop {
+                display: flex !important;
+                flex-direction: column !important;
+                .cards-shop {
+                    display: flex !important;
+                flex-direction: column !important;
+                }
+            }
+
+            
+
+    }
+
+    .main-empresa {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        .main-content {
+            max-height: 250px !important;
+            height: 100%;
+            text-align: center;
+                h1 {
+                    font-size: 3rem;
+                    max-width: 90%;
+                }
+        }
+
+        .info-empresa {
+            max-width: 360px;
+            width: 100%;
+                h2 {
+                    font-size: 2.5rem;
+                }
+                p {
+                    font-size: 2rem;
+                }
+        }
+
+        .iconos-empresa {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center !important;
+            max-width: 360px;
+            width: 90%;
+            height: 50%;
+
+            
+            
+            div {
+                width: 90%;
+                display: flex !important;
+                flex-direction: column !important;
+                height: 340px;
+
+                img {
+
+                    height: 50%;
+                    align-self: center;
+                }
+            }
+
+        }
+    }
+
 }
 

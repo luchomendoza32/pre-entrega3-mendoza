@@ -84,14 +84,20 @@
                 width: 85%;
                 margin: 20px auto;
                 
+                
                 .titulo {
                     width: 60%;
                     text-align: center;
                     margin: auto;
+                    @include borde-redondeado(20px, 1px solid black);
+                    background-color: #d1cdc2;
+                    width: 100%;
+                    
                         h1 {
                             font-size: 3.5rem;
                             color: #000000;
                             margin-top: 20px;
+                            
                         }
                         p{
                             font-size: 20px;
@@ -140,7 +146,9 @@
                                 }
                             }
                             .blog-vista {
-                                                                
+                                            
+                                
+                               
                                 a{
                                     text-decoration: none;
                                     color: #323031;
@@ -151,6 +159,9 @@
                                     color: #fff;
                                     margin-bottom: 20px;
                                     font-size: 15px;
+                                    &:hover {
+                                        box-shadow: 1px 1px 10px #4e7272;
+                                    }
                                     
                                 }                           
                             }
@@ -319,6 +330,104 @@
                     }
                     
             }
+    }
+}
+
+.main-tienda {
+    
+    @extend %display-flex;
+    background-color: #d6d1c3;
+
+    h1 {
+        margin: 3.5rem;
+    }
+    
+
+    .shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+    
+            .cards-shop {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 90vw;
+                align-items: center;
+                justify-content: center;
+                
+                
+                .shop-card{
+                    width: 250px;
+                    height: 350px;
+                    border: 2px solid black;
+                    margin: 1.5rem;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(255, 255, 255);
+                    transition: background-color 0.3s ease;
+                    
+                    &:hover{
+                        box-shadow: 1px 1px 10px black;
+                        background-color: #e5eef0;
+
+                    } 
+                   
+                    h3 {
+                        font-size: 2rem;
+                        margin: 0.5rem;
+                        text-align: center;
+                    }
+    
+                    div {
+                        height: 20rem;
+                        width: 18rem;
+                        overflow: hidden;
+                        background-color: white;
+                        display: flex;
+                        justify-content: center;
+                        
+                        img {
+                            
+                            height: 100%;
+                            background-color: none;
+                            margin: 0.5rem;
+                        }
+                    }
+
+                    h4 {
+                        margin: 0.5rem;
+                    }
+
+                    p {                       
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                    button {
+                        margin-bottom: 1rem;
+                        font-size: 1.5rem;
+                        border-radius: 5px;
+                        width: 40%;
+                        height: 3rem;
+                        text-align: center;
+                        transition: background-color 0.3s ease;
+
+                        &:hover{
+                            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.233);
+                        }
+                        &:active{
+                            background-color: #94e2de;
+                        }
+
+                    }
+                }
+            }
+        
     }
 }
 

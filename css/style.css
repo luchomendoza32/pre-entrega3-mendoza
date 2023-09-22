@@ -223,6 +223,68 @@
     margin: 1rem !important;
     width: 400px !important;
   }
+  .main-tienda {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100vw !important;
+  }
+  .main-tienda h1, .main-tienda h2 {
+    text-align: center;
+  }
+  .main-tienda .shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-tienda .shop .cards-shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main-empresa .main-content {
+    max-height: 250px !important;
+    height: 100%;
+    text-align: center;
+  }
+  .main-empresa .main-content h1 {
+    font-size: 3rem;
+    max-width: 90%;
+  }
+  .main-empresa .info-empresa {
+    max-width: 360px;
+    width: 100%;
+  }
+  .main-empresa .info-empresa h2 {
+    font-size: 2.5rem;
+  }
+  .main-empresa .info-empresa p {
+    font-size: 2rem;
+  }
+  .main-empresa .iconos-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 360px;
+    width: 90%;
+    height: 50%;
+  }
+  .main-empresa .iconos-empresa div {
+    width: 90%;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 340px;
+  }
+  .main-empresa .iconos-empresa div img {
+    height: 50%;
+    align-self: center;
+  }
 }
 .div-iconos {
   display: flex;
@@ -241,7 +303,7 @@
   box-shadow: 1px 1px 10px;
 }
 
-.main-empresa .iconos-empresa, .main-empresa, .main-servicio, .main-celulares, .main-index {
+.main-tienda, .main-empresa .iconos-empresa, .main-empresa, .main-servicio, .main-celulares, .main-index {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,6 +393,10 @@
   width: 60%;
   text-align: center;
   margin: auto;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #d1cdc2;
+  width: 100%;
 }
 .main-celulares .blog .blog-contenido .titulo h1 {
   font-size: 3.5rem;
@@ -384,6 +450,9 @@
   color: #fff;
   margin-bottom: 20px;
   font-size: 15px;
+}
+.main-celulares .blog .blog-contenido .cards .card .blog-vista a:hover {
+  box-shadow: 1px 1px 10px #4e7272;
 }
 .main-celulares .blog .blog-contenido .cards .card .fecha p {
   font-weight: 600;
@@ -516,6 +585,85 @@
   font-weight: 600;
 }
 
+.main-tienda {
+  background-color: #d6d1c3;
+}
+.main-tienda h1 {
+  margin: 3.5rem;
+}
+.main-tienda .shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1rem;
+}
+.main-tienda .shop .cards-shop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+.main-tienda .shop .cards-shop .shop-card {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  margin: 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease;
+}
+.main-tienda .shop .cards-shop .shop-card:hover {
+  box-shadow: 1px 1px 10px black;
+  background-color: #e5eef0;
+}
+.main-tienda .shop .cards-shop .shop-card h3 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+.main-tienda .shop .cards-shop .shop-card div {
+  height: 20rem;
+  width: 18rem;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.main-tienda .shop .cards-shop .shop-card div img {
+  height: 100%;
+  background-color: none;
+  margin: 0.5rem;
+}
+.main-tienda .shop .cards-shop .shop-card h4 {
+  margin: 0.5rem;
+}
+.main-tienda .shop .cards-shop .shop-card p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.main-tienda .shop .cards-shop .shop-card button {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  width: 40%;
+  height: 3rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.main-tienda .shop .cards-shop .shop-card button:hover {
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.233);
+}
+.main-tienda .shop .cards-shop .shop-card button:active {
+  background-color: #94e2de;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     display: none;
@@ -621,6 +769,68 @@
     margin: 1rem !important;
     width: 400px !important;
   }
+  .main-tienda {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100vw !important;
+  }
+  .main-tienda h1, .main-tienda h2 {
+    text-align: center;
+  }
+  .main-tienda .shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-tienda .shop .cards-shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main-empresa .main-content {
+    max-height: 250px !important;
+    height: 100%;
+    text-align: center;
+  }
+  .main-empresa .main-content h1 {
+    font-size: 3rem;
+    max-width: 90%;
+  }
+  .main-empresa .info-empresa {
+    max-width: 360px;
+    width: 100%;
+  }
+  .main-empresa .info-empresa h2 {
+    font-size: 2.5rem;
+  }
+  .main-empresa .info-empresa p {
+    font-size: 2rem;
+  }
+  .main-empresa .iconos-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 360px;
+    width: 90%;
+    height: 50%;
+  }
+  .main-empresa .iconos-empresa div {
+    width: 90%;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 340px;
+  }
+  .main-empresa .iconos-empresa div img {
+    height: 50%;
+    align-self: center;
+  }
 }
 .div-iconos {
   display: flex;
@@ -639,7 +849,7 @@
   box-shadow: 1px 1px 10px;
 }
 
-.main-index, .main-celulares, .main-servicio, .main-empresa, .main-empresa .iconos-empresa {
+.main-index, .main-celulares, .main-servicio, .main-empresa, .main-empresa .iconos-empresa, .main-tienda {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -676,40 +886,6 @@ html {
 body {
   background-color: #c1bdb3;
   min-height: 100vh;
-}
-
-.carousel {
-  display: none;
-}
-
-.shop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin: 5rem;
-}
-.shop .cards-shop {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 90vw;
-  align-items: center;
-  justify-content: center;
-}
-.shop .cards-shop .shop-card {
-  width: 300px;
-  border: 2px solid black;
-  margin: 1rem;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.shop .cards-shop .shop-card div {
-  width: 200px;
-}
-.shop .cards-shop .shop-card div img {
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

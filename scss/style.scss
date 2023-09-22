@@ -20,8 +20,6 @@ html {
     font-family: 'Roboto', sans-serif;
   }
 
-
-
 body {
     background-color: #c1bdb3;
     min-height: 100vh;
@@ -29,43 +27,7 @@ body {
 
 
 
-.carousel {
-    display: none ;
-}
 
-.shop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 5rem;
-
-        .cards-shop {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            max-width: 90vw;
-            align-items: center;
-            justify-content: center;
-            
-            .shop-card{
-                width: 300px;
-                border: 2px solid black;
-                margin: 1rem;
-                border-radius: 20px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                div {
-                    width: 200px;
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    
-}
 
 
 
